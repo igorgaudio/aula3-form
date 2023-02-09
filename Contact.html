@@ -1,0 +1,112 @@
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Contact</title>
+  </head>
+  <body class="form-body">
+    <!---------------------- HEADER ------------------------->
+    <!-- ------------------FORM ------------------------------->
+    <div class="form-container">
+      <div class="form-image">
+        <img src="IMG/undraw_forms_re_pkrt.svg" alt="animation" />
+      </div>
+      <div class="form">
+        <form id="contact-form">
+          <!-------------------form header-------------------->
+          <div class="form-header">
+            <h1>Cadastre-se</h1>
+            <div class="login-button">
+              <button><a href="#">Entrar</a></button>
+            </div>
+          </div>
+
+          <!--------------------------INPUT GROUP-------------------------------------------->
+          <div class="input-group">
+            <div class="input-box">
+              <label for="firstname">Primeiro Nome</label>
+              <input
+                id="firstname"
+                name="firstname"
+                placeholder="Digite seu primeiro nome"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <label for="lastname">Sobrenome</label>
+              <input
+                id="lastname"
+                type="text"
+                name="lastname"
+                placeholder="Digite seu sobrenome"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <label for="email">E-mail</label>
+              <input
+                id="email"
+                type="email"
+                name="email"
+                placeholder="Digite seu E-mail"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <label for="message">Mensagem</label>
+              <input
+                id="message"
+                type="text"
+                name="message"
+                placeholder="Digite sua mensagem!"
+                required
+              />
+            </div>
+          </div>
+          <div class="gender-inputs">
+            <div class="gender-title">
+              <h3>Gênero</h3>
+            </div>
+            <div class="gender-group">
+              <div class="gender-input">
+                <input type="radio" id="male" name="gender" value="Masculino" />
+                <label for="male">Maculino</label>
+              </div>
+              <div class="gender-input">
+                <input
+                  type="radio"
+                  id="female"
+                  name="gender"
+                  value="Feminino"
+                />
+                <label for="female">Feminino</label>
+              </div>
+              <div class="gender-input">
+                <input type="radio" id="others" name="gender" value="Outros" />
+                <label for="others">Outros</label>
+              </div>
+              <div class="gender-input">
+                <input
+                  type="radio"
+                  id="none"
+                  name="gender"
+                  value="Prefere não dizer"
+                />
+                <label for="none">Prefiro não dizer</label>
+              </div>
+            </div>
+          </div>
+          <div class="continue-button">
+            <button type="submit"><a href="#">Continuar</a></button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script type="text/javascript" src="scrpit.js"></script>
+  </body>
+</html>
